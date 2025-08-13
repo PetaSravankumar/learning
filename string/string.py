@@ -1,0 +1,12 @@
+s='RajaRammohanRoy'
+print(s)
+print(len(s))
+print(s[2:5])
+print(s[-2:-5])
+print(s[2:8:2])
+print(s[-3:-7:-1])
+print(s[5:-6])
+print(s[-8:-4])
+print(s[::])
+print(s[::3])
+print(s[::-1])
