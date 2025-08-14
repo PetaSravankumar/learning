@@ -7,6 +7,6 @@ def outer(arg):
         arg2=arg
         arg2()
         print("the leaving the innner ")
-    return inner()
+    return inner
 ref=outer(main)
 ref()

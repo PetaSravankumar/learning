@@ -14,9 +14,6 @@ def outer():
     print(a)
     inner()
     print(a)
-    re=inner
-    print(re)
-outer(re)
-
+outer()
 
 
