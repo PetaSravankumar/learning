@@ -1,4 +1,5 @@
-s=10
+from math import pi as s
+#s=10
 def outer():
     #s=23
     def inner():
