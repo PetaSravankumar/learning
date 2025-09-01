@@ -5,4 +5,4 @@ class B(A):
     def fun_B(self):
         print("inside the B")
 b=B()
-print(b.fun_B())
+b.fun_B()
