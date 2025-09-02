@@ -1,0 +1,14 @@
+class A:
+    def disp(self):
+        print("Inside the A")
+class B(A):
+    def disp(self):
+        print("inside the B")
+class C(B):
+    def disp(self):
+        print("Inside the c")
+        B.disp(self)
+        A.disp(self)
+c1=C()
+c1.disp()
+
