@@ -5,5 +5,3 @@ print(type(x))
 print(type(a))
 print(x)
 print(int)
-pass=10
-print(pass)

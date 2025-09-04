@@ -15,6 +15,7 @@ class fighter(plane):
 p1=passenger()
 c1=cargo()
 f1=fighter()
+
 def allowplane(ref):
     ref.takeoff()
     ref.fly()

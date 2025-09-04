@@ -7,6 +7,7 @@ class Person:
         self.__name=value
     getset=property(getter,setter)
 p=Person()
+print(p)
 p.getset="sravan"
 res=p.getset
 print(res)
