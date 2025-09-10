@@ -1,4 +1,7 @@
 a=int(input("enter the numebre"))
 b=int(input("enter the number"))
-res=a/b
-print(res)
+try:
+    res=a/b
+    print(res)
+except Exception as e:
+    print("error occured")
