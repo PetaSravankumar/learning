@@ -13,3 +13,6 @@ l3=[10,20,["sravan",'kumar',['sitha','radha','lakshmi'],'sam'],55]
 print(len(l3))
 print(l3)
 print(l3[2][2][0])
+print(type(l3))
+print(l3[2])
+print(id(l3[2]))
