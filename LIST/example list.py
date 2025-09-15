@@ -6,6 +6,10 @@ l1=[10,'sravan',4.3]
 print(l1)
 print(type(l1))
 
+l3=[10,10,10]
+print(l3)
+print(type(l3))
+
 l2=[]
 i=0
 while True:
@@ -19,3 +23,4 @@ while True:
     else:
         break
 print(l2)
+
