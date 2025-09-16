@@ -21,6 +21,7 @@ print(li)
 li1=li.copy()
 print(li)
 print(li1)
+li1[1]=22
 li[2][1]='rupmini'
 print(li)
-print(li1)
+print(li1) 
