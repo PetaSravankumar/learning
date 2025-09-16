@@ -16,7 +16,7 @@ print(l1)
 ## deep copy
 ##
 
-li=[10,20,['krisna','radha','rama'],30,50]
+li=[10,20,['krisna','radha','rama'],30,50,60]
 print(li)
 li1=li.copy()
 print(li)
