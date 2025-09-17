@@ -19,3 +19,12 @@ l4=[0,0,0,0]
 print(l4)
 print(any(l4))
 print(all(l4))
+
+l5=[0.1,0]
+print(any(l5))
+print(all(l5))
+
+l6=[3,1,5,3,8]
+print(l6)
+a=sorted(l6)
+print(a)
