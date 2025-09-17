@@ -6,3 +6,4 @@ print(l1)
 print(l)
 l[2][2]='sam1'
 print(l)
+print(l1)
