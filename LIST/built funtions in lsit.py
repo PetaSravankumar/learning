@@ -6,3 +6,7 @@ print(max(l))
 l1=[1,1,0,1]
 print(any(l1))
 print(all(l1))
+
+l2=[0,0,1,0]
+print(any(l2))
+print(all(l2))
