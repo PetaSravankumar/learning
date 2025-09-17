@@ -5,3 +5,4 @@ print(min(l))
 print(max(l))
 l1=[1,1,0,1]
 print(any(l1))
+print(all(l1))
