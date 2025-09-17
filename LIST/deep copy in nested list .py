@@ -4,3 +4,5 @@ print(l)
 l1=copy.deepcopy(l)
 print(l1)
 print(l)
+l[2][2]='sam1'
+print(l)
