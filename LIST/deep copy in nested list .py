@@ -4,6 +4,6 @@ print(l)
 l1=copy.deepcopy(l)
 print(l1)
 print(l)
-l[2][2]='sam1'
+l[2][2]='sumo'
 print(l)
 print(l1)
