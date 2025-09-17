@@ -10,3 +10,7 @@ print(all(l1))
 l2=[0,0,1,0]
 print(any(l2))
 print(all(l2))
+
+l3=[0,0,0,0]
+print(any(l3))
+print(all(l3))
