@@ -14,3 +14,8 @@ print(all(l2))
 l3=[0,0,0,0]
 print(any(l3))
 print(all(l3))
+
+l4=[0,0,0,0]
+print(l4)
+print(any(l4))
+print(all(l4))
