@@ -11,3 +11,8 @@ print(l)
 l.remove(30)
 print(l)
 l.insert(2,30)
+print(l)
+l.clear()
+print(l)
+del l
+print(l)
