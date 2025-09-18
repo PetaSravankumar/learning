@@ -28,3 +28,10 @@ l6=[3,1,5,3,8]
 print(l6)
 a=sorted(l6)
 print(a)
+
+
+
+l7=[0,'sravan']
+print(l7)
+print(any(l7))
+print(all(l7))
