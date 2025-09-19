@@ -4,3 +4,7 @@ print(type(t1))
 
 t2=(10,"sravan",30)
 print(t2)
+print(type(t2))
+
+t3=(10)
+print(t3)
