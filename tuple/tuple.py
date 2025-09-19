@@ -9,3 +9,8 @@ print(type(t2))
 t3=(10)
 print(t3)
 print(type(t3))
+
+t4=(10,)
+print(t4)
+print(type(t4))
+print(t4)
