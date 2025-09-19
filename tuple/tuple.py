@@ -8,3 +8,4 @@ print(type(t2))
 
 t3=(10)
 print(t3)
+print(type(t3))
