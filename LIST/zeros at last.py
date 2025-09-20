@@ -3,7 +3,7 @@ l1=[]
 for i in range(len(l)):
     if l[i]!=0:
         l1.append(i)
-    if len(l1)<len(l):
-        j=0
-        l1.append(j)
+while len(l1)<len(l):
+    j=0
+    l1.append(j)
 print(l1)
