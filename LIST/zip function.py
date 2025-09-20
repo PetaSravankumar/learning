@@ -3,3 +3,4 @@ f_nam=[18,7,17,32]
 country=["ind","indi","So Af","Astr"]
 ipl=['rcb','csk','rcb','pb']
 res=list(zip(name,f_nam,country,ipl))
+print(res)
