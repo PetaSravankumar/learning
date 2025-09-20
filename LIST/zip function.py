@@ -8,3 +8,5 @@ print(res)
 
 res1=list(zip_longest(name,f_nam,country,ipl))
 print(res1)
+
+res2=list(zip_longest(name,f_nam,country,ipl,fillvalue="pora puka"))
