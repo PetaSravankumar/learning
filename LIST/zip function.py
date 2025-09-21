@@ -11,3 +11,4 @@ print(res1)
 
 res2=list(zip_longest(name,f_nam,country,ipl,fillvalue="**"))
 print(res2)
+print(res2)
