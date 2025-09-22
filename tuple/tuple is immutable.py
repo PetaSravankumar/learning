@@ -5,3 +5,4 @@ print(l)
 t=(30,20,40,50)
 print(t)
 t[1]=200
+print(t)
