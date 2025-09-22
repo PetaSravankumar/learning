@@ -3,3 +3,4 @@ print(l)
 l[1]=220
 print(l)
 t=(30,20,40,50)
+print(t)
