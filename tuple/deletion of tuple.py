@@ -6,3 +6,4 @@ t2=t[:3]+t1[4:]
 print(t2)
 
 t3=(10,20,("shiva","krishna","kk"),30)
+print(t3)
