@@ -5,3 +5,6 @@ print(s3)
 
 s4=s1.intersection(s2)
 print(s4)
+
+s5=s1.difference(s2)
+print(s5)
