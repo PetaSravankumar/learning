@@ -3,5 +3,7 @@ s2={1,2}
 print(s1.issubset(s2))
 print(s2.issubset(s1))
 print(s1.issuperset(s2))
-
+s3={8,7,9}
 print(s1.isdisjoint(s2))
+print(s2.isdisjoint(s1))
+print(s3.isdisjoint(s1))
