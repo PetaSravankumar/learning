@@ -11,3 +11,6 @@ print(s5)
 
 s6=s2.difference(s1)
 print(s6)
+
+s7=s1.symmetric_difference(s2)
+print(s7)
