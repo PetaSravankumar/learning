@@ -9,3 +9,4 @@ t3=(10,20,("shiva","krishna","kk"),30)
 print(t3)
 print(t3[3])
 print(t3[2][2])
+
