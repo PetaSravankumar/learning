@@ -8,3 +8,6 @@ print(s4)
 
 s5=s1.difference(s2)
 print(s5)
+
+s6=s2.difference(s1)
+print(s6)
