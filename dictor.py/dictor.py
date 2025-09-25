@@ -6,4 +6,6 @@ for i in dic:
 print("-------------------------------")
 for i in dic:
     print(dic[i])
-print("-------------------------------")   
+print("-------------------------------")  
+for i in dic.keys():
+    print(i)
