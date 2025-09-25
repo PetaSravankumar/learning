@@ -15,3 +15,5 @@ for i in dic.values():
 print("-------------------------------")  
 for i in dic.items():
     print(i)
+dic['clg']='vela'
+print(dic)
