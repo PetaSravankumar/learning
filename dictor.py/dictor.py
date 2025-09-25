@@ -12,3 +12,6 @@ for i in dic.keys():
 print("-------------------------------")  
 for i in dic.values():
     print(i)
+print("-------------------------------")  
+for i in dic.items():
+    print(i)
