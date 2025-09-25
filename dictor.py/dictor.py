@@ -9,3 +9,6 @@ for i in dic:
 print("-------------------------------")  
 for i in dic.keys():
     print(i)
+print("-------------------------------")  
+for i in dic.values():
+    print(i)
