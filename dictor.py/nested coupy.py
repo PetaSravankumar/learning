@@ -5,3 +5,4 @@ c1=circket.copy()
 print(c1)
 c2=circket.copy()
 print(c2)
+circket["egfgs"]['num3']="tamanla"
