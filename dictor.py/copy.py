@@ -7,5 +7,5 @@ print(s2)
 stu["age"]=19
 print(stu)
 print(s1)
-print(s2)
+
 
