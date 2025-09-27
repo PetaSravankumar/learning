@@ -10,6 +10,6 @@
 
 # name=input("enter the name :")
 prt=open("sravan.txt",'r')
-res=prt.read(18)
+res=prt.readline()
 print(res)
 prt.close()
