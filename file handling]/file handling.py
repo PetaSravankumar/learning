@@ -3,7 +3,13 @@
 # prt.write(name)
 # prt.close()
 
-name=input("enter the name :")
-prt=open("sravan.txt",'a')
-prt.write(name)
+# name=input("enter the name :")
+# prt=open("sravan.txt",'a')
+# prt.write(name)
+# prt.close()
+
+# name=input("enter the name :")
+prt=open("sravan.txt",'r')
+res=prt.read()
+print(res)
 prt.close()
