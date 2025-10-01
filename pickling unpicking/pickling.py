@@ -6,4 +6,5 @@ class Emp:
     def disp(self):
         print(self.name)
         print(self.age)
-    
+e1=Emp()
+print(e1.disp())
