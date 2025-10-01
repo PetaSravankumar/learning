@@ -9,6 +9,5 @@ class Emp:
 e1=Emp()
 print(e1.disp())
 f=open("sravan.txt","wb")
-res=pickle.dump(e1,f)
-print(res)
+pickle.dump(e1,f)
 f.close()
