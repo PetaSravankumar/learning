@@ -1,0 +1,8 @@
+ptr=open("radha krishna wallpaper.png",'rb')
+res=ptr.read()
+print(res)
+ptr.close()
+ptr1=open("new krishan.png",'wb')
+ptr1.write(res)
+print(ptr1)
+ptr1.close()
