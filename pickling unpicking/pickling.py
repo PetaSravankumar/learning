@@ -12,7 +12,4 @@ f=open("sravan.txt","wb")
 pickle.dump(e1,f)
 f.close()
 
-f=open('sravan.txt','rb')
-e=pickle.load(f)
-print("object is retrived")
-e.disp()
+
