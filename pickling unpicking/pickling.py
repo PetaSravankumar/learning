@@ -8,3 +8,4 @@ class Emp:
         print(self.age)
 e1=Emp()
 print(e1.disp())
+f=open("sravan.txt","wb")
