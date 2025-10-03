@@ -17,3 +17,4 @@ class Demo:
 
 d1=Demo()
 d1.printName()
+d1.printNumebers()
