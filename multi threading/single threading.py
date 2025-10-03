@@ -6,4 +6,7 @@ class Demo:
             print(i)
             time.sleep(3)
     def printNumebers(self):
-        
+        for i in range(10):
+            print(i)
+            time.sleep(2)
+            
