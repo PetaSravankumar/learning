@@ -9,4 +9,6 @@ class Demo:
         for i in range(10):
             print(i)
             time.sleep(2)
-            
+    def add(self):
+        a=10
+        
