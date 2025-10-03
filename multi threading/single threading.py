@@ -15,4 +15,5 @@ class Demo:
         c=a+b
         print(c)
 
-d1=Demo()       
+d1=Demo()
+d1.printName()
