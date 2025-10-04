@@ -11,8 +11,8 @@ class  Task2(Thread):
         for i in range(10):
             print(i)
             time.sleep(2)
-# class Task3:
-#     def run(self):
+class Task3:
+    def run(self):
 #         a=10
 #         b=20
 #         c=a+b
