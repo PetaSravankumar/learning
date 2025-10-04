@@ -15,4 +15,5 @@ class  odd(Thread):
 t1=even()
 t2=odd()
 t1.start()
+time.sleep(0.5)
 t2.start()
