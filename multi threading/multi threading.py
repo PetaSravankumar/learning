@@ -17,3 +17,9 @@ class Task3:
         b=20
         c=a+b
         print(c)
+t1=Task1()
+t2=Task2()
+t3=Task3()
+t1.start()
+t2.start()
+t3.start()
