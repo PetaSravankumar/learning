@@ -8,9 +8,9 @@ class Task1(Thread):
             time.sleep(3)
 class  Task2(Thread):
     def run(self):
-#         for i in range(10):
-#             print(i)
-#             time.sleep(2)
+        for i in range(10):
+            print(i)
+            time.sleep(2)
 # class Task3:
 #     def run(self):
 #         a=10
