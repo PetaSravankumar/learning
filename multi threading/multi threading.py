@@ -13,6 +13,6 @@ class  Task2(Thread):
             time.sleep(2)
 class Task3:
     def run(self):
-#         a=10
-#         b=20
-#         c=a+b
+        a=10
+        b=20
+        c=a+b
