@@ -11,7 +11,7 @@ class  odd(Thread):
         for i in range(100):
             if i%2!=0:
                 print(i)
-                # time.sleep(2)
+                time.sleep(2)
 t1=even()
 t2=odd()
 t1.start()
