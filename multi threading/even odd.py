@@ -5,7 +5,7 @@ class even(Thread):
         for i in range(100):
             if i%2==0:
                 print(i)
-                # time.sleep(2)
+                time.sleep(2)
 class  odd(Thread):
     def run(self):
         for i in range(100):
