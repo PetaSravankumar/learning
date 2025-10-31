@@ -50,12 +50,20 @@ for i in range(1,cart+1):
     Price.append(price)
 
 p1 = product(Id,Name,Category,Quantity,Price)
-
-print("Enter 1.Category \n2.Quantity")
-choice = int(input("Enter choice:"))
-if choice == 1:
-    details = input("Enter Category:")
-    p1.basedOnCategory(details)
-else:
-    details = int(input("Enter Quantity:"))
-    p1.basedOnQuantity(details)
+mark=0
+while mark==0:
+    print("Enter 1.Category \n2.Quantity")
+    choice = int(input("Enter choice:"))
+    if choice == 1:
+        details = input("Enter Category:")
+        p1.basedOnCategory(details)
+    else:
+        details = int(input("Enter Quantity:"))
+        p1.basedOnQuantity(details)
+    cointune=int(input("enter the choice to cointinu 1,exit 2"))
+    if cointune==1:
+        pass
+    elif cointune==2:
+        mark=1
+    else:
+        print("entet the valide choice to enter")
