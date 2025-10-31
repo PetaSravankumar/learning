@@ -37,7 +37,7 @@ cart = int(input("How many products want:"))
 
 for i in range(1,cart+1):
 
-    id = int(input(f"Enter {i} product number:"))
+    id = int(input(f"Enter {i} product:"))
     name = input(f"Enter {i} product name:")
     category = input(f"Enter {i} product category:")
     quantity = int(input(f"Enter {i} product Quantity in kg:"))
