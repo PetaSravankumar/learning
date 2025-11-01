@@ -6,4 +6,3 @@ for i in str:
     else:
         str1+=i
 print(str1)
-print("hello")
