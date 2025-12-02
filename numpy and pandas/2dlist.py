@@ -7,3 +7,7 @@ for i in range(3):
     l.append(a)
     a=[]
 print(l)
+for i in  range(len(l)):
+    for j in range(len(l[0])):
+        print(l[i][j],end="")
+    print()
