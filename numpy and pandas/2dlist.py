@@ -9,5 +9,6 @@ for i in range(3):
 print(l)
 for i in  range(len(l)):
     for j in range(len(l[0])):
-        print(l[i][j],end=" ")
+        if i==j:
+            print(l[i][j],end=" ")
     print()
