@@ -7,7 +7,13 @@ for i in range(3):
     l.append(a)
     a=[]
 print(l)
+sum1=0
+sum2=0
 for i in  range(len(l)):
     for j in range(len(l[0])):
-        print(l[i][j],end=" ")
+        if i==j:
+            sum1+=l[i][j]
+        elif i+j==len(l)-1:
+            sum2+=l[i][j]
     print()
+print(sum1-sum2)
