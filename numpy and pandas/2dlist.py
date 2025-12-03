@@ -16,4 +16,3 @@ for i in  range(len(l)):
         elif i+j==len(l)-1:
             sum2+=l[i][j]
     print()
-print(sum1-sum2)
